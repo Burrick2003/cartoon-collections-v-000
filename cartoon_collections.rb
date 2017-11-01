@@ -28,16 +28,17 @@ end
 def find_the_cheese(input_array)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  output =
+  output = false
   counter = 0
     while counter < cheese_types.size do
       if input_array.include?(cheese_types[counter])
-        output = "#{input_array[counter]}"
+        output_string = "#{input_array[counter]}"
+        output = true
       end
       counter += 1
     end
     if output == true
-      output
+      output_string
       if output != true
         nil
     end
