@@ -39,7 +39,7 @@ def find_the_cheese(input_array)# code an argument here
     if output == true
       true
       if output != true
-        false
+        nil
     end
 end
 end
