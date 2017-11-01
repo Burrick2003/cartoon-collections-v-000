@@ -20,7 +20,7 @@ def long_planeteer_calls(input_array)# code an argument here
   input_array.map do |element|
     if element.size > 4
       output = true
-
+    end
   end
   output
 end
