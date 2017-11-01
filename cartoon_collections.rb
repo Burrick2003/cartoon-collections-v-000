@@ -32,7 +32,7 @@ def find_the_cheese(input_array)# code an argument here
   counter = 0
     while counter < cheese_types.size do
       if input_array.include?(cheese_types[counter])
-        output = true
+        output = "#{input.array[counter]}"
       end
       counter += 1
     end
